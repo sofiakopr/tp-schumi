@@ -36,12 +36,10 @@ div{
 .imagen-gris{
     width: 150px;
     height: 130px;
-    transition: width 1s, height 1s, transform 1s;
 }
 
 .imagen-gris:hover{
     filter: grayscale(100%);
-    transform: rotate(360deg);
 }
 
 img{

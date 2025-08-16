@@ -2,7 +2,7 @@ header{
     display: flex;
     background-color:rgb(34, 34, 34);
     padding: 40px;
-    color: blanchedalmond;
+    color:white;
 }
 
 div{
@@ -51,7 +51,7 @@ body{
 }
 
 table,th,td{
-    color: blanchedalmond;
+    color: white;
     border: 2px solid;
     text-align: center;
     margin: auto;
@@ -59,9 +59,9 @@ table,th,td{
 
 }
 
-@media screen and (max-width 768px) {
+@media (max-width: 480px){
     body{
-        background-color: rgb(139, 56, 56);
+             font-size:14px;
+             background color: rgb(139,56,56);
     }
-
 }

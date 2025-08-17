@@ -59,9 +59,9 @@ table,th,td{
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
     body{
         font-size:14px;
-        background color: rgb(139,56,56);
+        background-color: rgb(139,56,56);
     }
 }
